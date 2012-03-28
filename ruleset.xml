@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<ruleset name="PHP52to53">
+	<description>A standard for migrating from PHP version 5.2 to 5.3.</description>
+</ruleset>
