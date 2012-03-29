@@ -1,6 +1,6 @@
 <?php
 /**
- * Class Foobugs_PHP52to53_Sniffs_Deprecated_SetlocaleSniff.
+ * Class PHP52to53_Sniffs_Deprecated_SetlocaleSniff.
  *
  * PHP version 5
  *
@@ -26,7 +26,7 @@
  * @version   $Id$
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Foobugs_PHP52to53_Sniffs_Deprecated_SetlocaleSniff implements PHP_CodeSniffer_Sniff
+class PHP52to53_Sniffs_Deprecated_SetlocaleSniff implements PHP_CodeSniffer_Sniff
 {
 	/**
 	 * A list of tokenizers this sniff supports.

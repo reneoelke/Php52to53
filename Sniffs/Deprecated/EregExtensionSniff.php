@@ -1,6 +1,6 @@
 <?php
 /**
- * Class Foobugs_PHP52to53_Sniffs_Deprecated_EregExtensionSniff.
+ * Class PHP52to53_Sniffs_Deprecated_EregExtensionSniff.
  *
  * PHP version 5
  *
@@ -26,7 +26,7 @@
  * @version   Release 1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Foobugs_PHP52to53_Sniffs_Deprecated_EregExtensionSniff implements PHP_CodeSniffer_Sniff
+class PHP52to53_Sniffs_Deprecated_EregExtensionSniff implements PHP_CodeSniffer_Sniff
 {
 	/**
 	 * List with all deprecated ereg functions.

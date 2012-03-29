@@ -1,6 +1,6 @@
 <?php
 /**
- * Class Foobugs_PHP52to53_Sniffs_Extensions_SybaseSniff.
+ * Class PHP52to53_Sniffs_Extensions_SybaseSniff.
  *
  * PHP version 5
  *
@@ -27,7 +27,7 @@
  * @version   $Id$
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Foobugs_PHP52to53_Sniffs_Extensions_SybaseSniff implements PHP_CodeSniffer_Sniff
+class PHP52to53_Sniffs_Extensions_SybaseSniff implements PHP_CodeSniffer_Sniff
 {
 	/**
 	 * List with all sybase constants.
