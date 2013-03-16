@@ -27,13 +27,12 @@
         "source": "https://github.com/foobugs/PHP52to53"
     },
     "require": {
-        "php": ">=5.2",
         "goatherd/phpcs_installer": "*"
     },
     "autoload": {
         "psr-0": { "PHP52to53_": "./PHP52to53" }
     },
     "extra": {
-        "phpcs-name": "PHP52to53"
+        "phpcs-standard": "PHP52to53"
     }
 }
