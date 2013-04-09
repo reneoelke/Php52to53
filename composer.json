@@ -1,38 +1,48 @@
 {
-    "name": "goatherd/php52to53",
-    "description": "PHP52to53 is a collection of sniffs for PHP_CodeSniffer that check an PHP 5.2 application for PHP 5.3 compatibility.",
+    "name": "foobugs-standards/php52to53",
+    "description": "PHP_CodeSniffer standard for compatibility checking of PHP 5.2 to 5.3 migrations.",
+    "version": "0.9",
     "type": "phpcs-standard",
     "keywords": [
         "phpcs",
+        "PHP_CodeSniffer",
         "standards",
+        "sniff",
+        "migration",
+        "tool",
         "php5.2",
         "php5.3",
-        "compatibility"
+        "compatibility",
+        "migration",
+        "tool",
+        "static",
+        "analysis"
     ],
-    "homepage": "https://github.com/foobugs/PHP52to53",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Marcel Eichner"
+            "name": "Marcel Eichner",
+            "email": "marcel.eichner@foobugs.com",
+            "homepage": "http://www.marceleichner.de",
+            "role": "Developer"
         },
         {
-            "name": "Maik Penz"
+            "name": "Maik Penz",
+            "email": "maik.penz@foobugs.com",
+            "role": "Developer"
         },
         {
-            "name": "René Oelke"
-        }
+            "name": "Rene Oelke",
+            "email": "rene.oelke@foobugs.com",
+            "role": "Developer"
+        },
     ],
+    "homepage": "https://github.com/foobugs-standards/php52to53",
     "support": {
-        "issues": "https://github.com/foobugs/PHP52to53/issues",
-        "source": "https://github.com/foobugs/PHP52to53"
+        "issues": "https://github.com/foobugs-standards/php52to53/issues",
+        "source": "https://github.com/foobugs-standards/php52to53"
     },
     "require": {
-        "goatherd/phpcs_installer": "*"
-    },
-    "autoload": {
-        "psr-0": { "PHP52to53_": "./PHP52to53" }
-    },
-    "extra": {
-        "phpcs-standard": "PHP52to53"
+        "php": ">=5.3",
     }
 }

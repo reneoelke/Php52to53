@@ -19,23 +19,32 @@ Requirements
 Installation
 ------------
 
-* **Composer**
+### Composer
 
-        Add `foobugs/php52to53` to the `require-dev` section of your composer.json and run `composer install`.
-        CodeSniffer can now be accessed from `vendor/bin/phpcs`.
+You cann add the standard to your vendors directory by adding the dependency to your projects `composer.json`:
+
+	"require": {
+    	"foobugs-standards": "php53to54",
+	}
+
+After an update with `composer update`, you’re able to include the standard via the full path using the `--standard` parameter:
+
+	vendor/bin/phpcs --standard="`pwd`/vendor/foobugs-standards/php53to54" <targetDir>
+
+### Download 
 
 For the next two options make sure you’ve PHP_CodeSniffer installed. After that you can either put this standard into the PHP_CodeSniffer Standards directory located in your PEAR directory: (`pear/PHP/CodeSniffer/Standards`) or place the standard somewhere else and use it as standalone standard.
 
-* **Download**
+#### Download
 	
-	Download the [zip master](https://github.com/foobugs/PHP52to53/zipball/master) from github and extract it in the PHP_CodeSniffer Standards directory.
+Download the [zip master](https://github.com/foobugs/PHP52to53/zipball/master) from github and extract it in the PHP_CodeSniffer Standards directory.
 
-* **Git-Clone-Install**
+#### Git-Clone-Install**
 
-	This script will go to your PHP_CodeSniffer Standards directory and place a clone of PHP52to53 Standard inside of it:
+This script will go to your PHP_CodeSniffer Standards directory and place a clone of PHP52to53 Standard inside of it:
 
-        cd `pear config-get php_dir`/PHP/CodeSniffer/Standards
-        git clone git://github.com/foobugs/PHP52to53.git
+    cd `pear config-get php_dir`/PHP/CodeSniffer/Standards
+    git clone git://github.com/foobugs/PHP52to53.git
 
 Usage
 -----
