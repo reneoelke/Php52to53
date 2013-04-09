@@ -1,5 +1,6 @@
-PHP52to52
-===============================================================================
+PHP52to53
+=========
+
 PHP52to53 is a collection of sniffs for [PHP_CodeSniffer](http://pear.php.net/PHP_CodeSniffer) that check an PHP 5.2 application for PHP 5.3 compatibility.
 
 Features
@@ -62,3 +63,9 @@ Participate!
 ------------
 You can participate in this project by forking the [Repository](https://github.com/foobugs/PHP52to53) and push changes back to the project. Feel free to post issues or whishes in the [issue section](https://github.com/foobugs/PHP52to53/issues).
 
+Credits
+=======
+
+This standard is the result of a cooperation with [Zend Technologies Ltd.](http://www.zend.com) 
+to develop a PHP_CodeSniffer standard for the PHP 5.3 compatibility project. Thanks to Slavey 
+Karadzhov from Zend for supporting and testing it.
