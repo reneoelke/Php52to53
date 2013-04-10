@@ -43,6 +43,9 @@
         "source": "https://github.com/foobugs-standards/php52to53"
     },
     "require": {
-        "php": ">=5.3"
+        "goatherd/phpcs_installer": "*"
+    },
+    "extra": {
+        "phpcs-standard": "php53to54"
     }
 }
