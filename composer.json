@@ -35,7 +35,7 @@
             "name": "Rene Oelke",
             "email": "rene.oelke@foobugs.com",
             "role": "Developer"
-        },
+        }
     ],
     "homepage": "https://github.com/foobugs-standards/php52to53",
     "support": {
@@ -43,6 +43,6 @@
         "source": "https://github.com/foobugs-standards/php52to53"
     },
     "require": {
-        "php": ">=5.3",
+        "php": ">=5.3"
     }
 }
