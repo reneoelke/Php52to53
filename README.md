@@ -21,15 +21,15 @@ Installation
 
 ### Composer
 
-You cann add the standard to your vendors directory by adding the dependency to your projects `composer.json`:
+You can add the standard to your vendors directory by adding the dependency to your projects `composer.json`:
 
 	"require": {
-    	"foobugs-standards": "php53to54",
+    	"foobugs-standards/php52to53": "dev-master",
 	}
 
 After an update with `composer update`, you’re able to include the standard via the full path using the `--standard` parameter:
 
-	vendor/bin/phpcs --standard="`pwd`/vendor/foobugs-standards/php53to54" <targetDir>
+	vendor/bin/phpcs --standard="`pwd`/vendor/foobugs-standards/php52to53" <targetDir>
 
 ### Download 
 
